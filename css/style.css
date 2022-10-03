@@ -1,0 +1,165 @@
+[class*="__containe"]{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.game {
+    padding: 40px;
+}
+.game-1 {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+}
+.game-2 {
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+    visibility: hidden;
+}
+.game-1:hover + .game-2,
+.game-2:hover{
+    visibility: visible;
+}
+.game-3 {
+    background-color: violet;
+    width: 45px;
+    height: 200px;
+    visibility: hidden;
+    margin: 0px 0px 0px 255px;
+}
+.game-2:hover + .game-3,
+.game-3:hover{
+    visibility: visible;
+}
+.game-4 {
+    background-color: rgb(90, 90, 8);
+    width: 60px;
+    height: 40px;
+    visibility: hidden;
+    margin: -40px 0px 0px 300px;
+}
+.game-3:hover + .game-4,
+.game-4:hover{
+    visibility: visible;
+}
+.game-5 {
+    background-color: violet;
+    width: 35px;
+    height: 350px;
+    visibility: hidden;
+    margin: -350px 0px 0px 360px;
+}
+.game-4:hover + .game-5,
+.game-5:hover{
+    visibility: visible;
+}
+.game-6 {    
+    background-color: rgb(82, 82, 59);
+    width: 100px;
+    height: 30px;
+    visibility: hidden;
+    margin: -350px 0px 0px 395px;
+}
+.game-5:hover + .game-6,
+.game-6:hover{
+    visibility: visible;
+}
+.game-7 {
+    background-color: violet;
+    width: 25px;
+    height: 350px;
+    visibility: hidden;
+    margin: -30px 0px 0px 495px;
+}
+.game-6:hover + .game-7,
+.game-7:hover{
+    visibility: visible;
+}
+.game-8 {
+    background-color: rgb(43, 43, 26);
+    width: 100px;
+    height: 20px;
+    visibility: hidden;
+    margin: -20px 0px 0px 520px;
+}
+.game-7:hover + .game-8,
+.game-8:hover{
+    visibility: visible;
+}
+.game-9 {
+    background-color: rgb(26, 173, 63);
+    width: 15px;
+    height: 200px;
+    visibility: hidden;
+    margin: -20px 0px 0px 620px;
+}
+.game-8:hover + .game-9,
+.game-9:hover{
+    visibility: visible;
+}
+.game-10 {
+    background-color: rgb(253, 253, 106);
+    width: 500px;
+    height: 10px;
+    visibility: hidden;
+    margin: -10px 0px 0px 120px;
+}
+.game-9:hover + .game-10,
+.game-10:hover{
+    visibility: visible;
+}
+.game-11 {
+    background-color: rgb(43, 43, 26);
+    width: 8px;
+    height: 80px;
+    visibility: hidden;
+    margin: -90px 0px 0px 120px;
+}
+.game-10:hover + .game-11,
+.game-11:hover{
+    visibility: visible;
+}
+.game-12 {
+    background-color: rgb(41, 12, 173);
+    width: 300px;
+    height: 10px;
+    visibility: hidden;
+    margin: -90px 0px 0px 120px;
+}
+.game-11:hover + .game-12,
+.game-12:hover{
+    visibility: visible;
+}
+.game-13 {
+    background-color: rgb(43, 43, 26);
+    width: 8px;
+    height: 65px;
+    visibility: hidden;
+    margin: -65px 0px 0px 420px;
+}
+.game-12:hover + .game-13,
+.game-13:hover{
+    visibility: visible;
+}
+.game-14 {
+    background-color: rgb(212, 18, 203);
+    width: 360px;
+    height: 7px;
+    visibility: hidden;
+    margin: -72px 0px 0px 68px;
+}
+.game-13:hover + .game-14,
+.game-14:hover{
+    visibility: visible;
+}
+.game-15 {
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin-top:-45px;
+    visibility: hidden;
+}
+.game-14:hover + .game-15,
+.game-15:hover{
+    visibility: visible;
+}
